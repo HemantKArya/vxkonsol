@@ -6,7 +6,9 @@
 </span>
 </div>
 
-> **Lightning‑fast app launcher & more, right at your fingertips.**
+<img src="./assets/images/VxKonsolBanner.png" alt="VXKonsol Banner" width="100%"/>
+
+**Lightning‑fast app launcher & more, right at your fingertips.**
 
 > **🚧 Work in Progress 🚧**
 >
