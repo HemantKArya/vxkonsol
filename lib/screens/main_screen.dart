@@ -45,7 +45,7 @@ class _MainScreenState extends State<MainScreen> {
     );
 
     // Define common icon properties for compactness
-    const double iconSize = 18.0; // Smaller icon size (like reference image)
+    const double iconSize = 20.0; // Smaller icon size (like reference image)
     const EdgeInsets iconPadding = EdgeInsets.zero; // No internal padding
     const VisualDensity iconDensity = VisualDensity.compact; // Compact layout
     const BoxConstraints iconConstraints =
@@ -92,13 +92,13 @@ class _MainScreenState extends State<MainScreen> {
                             theme.brightness == Brightness.dark
                                 ? Image.asset(
                                     'assets/icons/VXKonsolPNG.png',
-                                    height: 24,
-                                    width: 24,
+                                    height: 28,
+                                    width: 28,
                                   )
                                 : Image.asset(
                                     'assets/icons/VXKonsolPNG2.png',
-                                    height: 24,
-                                    width: 24,
+                                    height: 28,
+                                    width: 28,
                                   ),
                             const SizedBox(
                                 width: 10), // Space between icon and text

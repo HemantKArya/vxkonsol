@@ -17,8 +17,8 @@ class ShortcutInfoWidget extends StatelessWidget {
     final textStyle = TextStyle(
       // Use bodySmall color by default, maybe slightly different if needed
       color: Theme.of(context).textTheme.bodySmall!.color?.withOpacity(0.8),
-      fontWeight: FontWeight.w500,
-      fontSize: small ? 9 : 11, // Adjust size based on flag
+      fontWeight: FontWeight.w700,
+      fontSize: small ? 10 : 12, // Adjust size based on flag
     );
 
     final containerPadding = small
@@ -51,7 +51,7 @@ class ShortcutInfoWidget extends StatelessWidget {
             style: textStyle.copyWith(
               fontWeight: FontWeight.w600, // Make key slightly bolder
               // Slightly larger font for key itself if not small
-              fontSize: small ? 9 : 11,
+              fontSize: small ? 10 : 12,
             ),
           ),
         ),

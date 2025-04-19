@@ -550,6 +550,12 @@ class SearchCubit extends Cubit<SearchState> {
       final selectedResult = state.results[state.selectedIndex];
       log("[SearchCubit] Executing action for index ${state.selectedIndex}: ${selectedResult.title}");
       selectedResult.onSelected?.call();
+      if (_globalController.searchController.text.isNotEmpty) {
+        _globalController.searchController.selection = TextSelection(
+          baseOffset: 0,
+          extentOffset: _globalController.searchController.text.length,
+        );
+      }
       windowManager.hide();
     } else {
       log("[SearchCubit] ExecuteAction: No valid item selected (index: ${state.selectedIndex}). Query: '${state.query}'");
