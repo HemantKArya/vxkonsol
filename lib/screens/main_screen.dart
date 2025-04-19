@@ -168,21 +168,6 @@ class _MainScreenState extends State<MainScreen> {
                             ),
                             const SizedBox(width: iconSpacing), // Apply spacing
 
-                            // --- Web Search Button --- (Original Position 4)
-                            IconButton(
-                              tooltip: "Web Search?",
-                              iconSize: iconSize, // Apply style
-                              padding: iconPadding, // Apply style
-                              visualDensity: iconDensity, // Apply style
-                              constraints: iconConstraints, // Apply style
-                              icon: Icon(FluentIcons.earth_16_regular,
-                                  color: theme.primaryColor),
-                              onPressed: () {
-                                log("Earth pressed");
-                              },
-                            ),
-                            const SizedBox(width: iconSpacing), // Apply spacing
-
                             // --- Hide Button --- (Original Position 5)
                             IconButton(
                               tooltip: "Hide",
